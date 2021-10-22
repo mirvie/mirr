@@ -1,0 +1,39 @@
+Package: mirr
+Type: Package
+Title: Convenience Package for Loading mirmodels and mirmisc
+Version: 0.1.2
+Authors@R: 
+    c(person(given = "Rory",
+             family = "Nolan",
+             role = c("aut", "cre"),
+             email = "rorynolan@mirvie.com"),
+      person(given = "Arkady",
+             family = "Khodursky",
+             role = "aut",
+             email = "arkady@mirvie.com"),
+      person(given = "Farooq",
+             family = "Siddiqui",
+             role = "aut",
+             email = "farooq@mirvie.com"),
+      person(given = "Elaine",
+             family = "Gee",
+             role = "aut",
+             email = "elaine@mirvie.com"),
+      person(given = "Joan",
+             family = "Camunas Soler",
+             role = "aut",
+             email = "joan@mirvie.com"),
+      person(given = "Morten",
+             family = "Rasmussen",
+             role = "aut",
+             email = "morten@mirvie.com"))
+Maintainer: Rory Nolan <rory@mirvie.com>
+Description: Load the mirvie R packages in a single library call.
+License: MIT + file LICENSE
+URL: https://gitlab.com/Mirvie/mirr
+BugReports: https://gitlab.com/Mirvie/mirr/-/issues
+Depends: 
+    mirmisc (>= 0.1.2),
+    mirmodels (>= 0.1.2)
+Encoding: UTF-8
+LazyData: true
